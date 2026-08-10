@@ -1,63 +1,34 @@
 ﻿# Setup Step 2: Thonny
 
-Thonny is the first programming tool we will use. It keeps early Python practice simple.
+Thonny is the first programming tool we will use.
 
-## Step 1: Download Thonny
+## Do This
 
-Go to:
-
-https://thonny.org/
-
-Download the version for your computer.
-
-## Step 2: Install Thonny
-
-Run the installer.
-
-If you are asked to approve the installation, choose yes.
-
-## Step 3: Open Thonny
-
-After installing, open Thonny.
-
-You should see:
-
-- an editor area where you can type code
-- a shell area where output appears
-- a Run button
-
-## Step 4: Run Your First Program
-
-Type this into the editor:
+1. Download Thonny: https://thonny.org/
+2. Install it.
+3. Open Thonny.
+4. Type this:
 
 ```python
 print("Hello, CSCI171!")
 ```
 
-Click `Run`.
+5. Click `Run`.
 
-If Thonny asks you to save the file, save it somewhere you can find again, such as a `CSCI171` folder.
+If Thonny asks you to save the file, save it in a folder named `CSCI171`.
 
-## Step 5: Check The Output
+## Done When
 
-You should see:
+You see this output:
 
 ```text
 Hello, CSCI171!
 ```
 
-## Success Check
+## Need Help?
 
-You are done when:
+Send your instructor:
 
-- Thonny opens.
-- You can run a Python file.
-- You can see output in the shell.
-
-## If You Get Stuck
-
-Ask for help and include:
-
-- A screenshot of Thonny
-- The exact error message
-- What happened when you clicked `Run`
+- a screenshot
+- the exact error message
+- what happened when you clicked `Run`

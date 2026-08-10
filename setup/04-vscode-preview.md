@@ -1,28 +1,16 @@
 ﻿# Setup Step 4: VS Code Preview
 
-We will start with Thonny. Later, we will move to Visual Studio Code because it is widely used in professional programming.
+We will start with Thonny and move to Visual Studio Code later.
 
 You do not need to master VS Code in Week 1.
 
-## Download
+## Optional For Now
 
-Go to:
+Download VS Code:
 
 https://code.visualstudio.com/
 
-Install Visual Studio Code for your computer.
+Later, we will install:
 
-## Recommended Extensions
-
-Install these later when instructed:
-
-- Python
-- GitHub Pull Requests
-
-## Success Check
-
-You are ready for the later VS Code transition when:
-
-- VS Code opens.
-- You can open a folder.
-- You can find the Extensions panel.
+- Python extension
+- GitHub Pull Requests extension
