@@ -11,7 +11,8 @@ Welcome to CSCI171. This repo has the course links, setup steps, schedule, and w
 3. Set up [GitHub](./setup/01-github-account.md).
 4. Set up [Thonny](./setup/02-thonny.md).
 5. Read [Git and assignments](./setup/03-git-and-assignments.md).
-6. Skim [how code is graded](./rubrics/how-code-is-graded.md).
+6. Skim [what this course prepares you to do](./learning-goals.md).
+7. Skim [how code is graded](./rubrics/how-code-is-graded.md).
 
 ## Before The First Assignment
 
@@ -35,3 +36,4 @@ Make sure you can:
 - [Syllabus](./syllabus.md)
 - [Schedule](./schedule.md)
 - [Setup folder](./setup/)
+
