@@ -37,5 +37,7 @@ Make sure you can:
 - [Schedule](./schedule.md)
 - [Setup folder](./setup/)
 - [Group builds](./group-builds.md)
+- [Quiz expectations](./quizzes.md)
+
 
 
