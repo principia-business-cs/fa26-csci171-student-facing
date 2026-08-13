@@ -4,7 +4,7 @@ Clear expectations are kind. Use this before submitting.
 
 ## Individual Coding Projects
 
-Most Friday projects use 20 points.
+Most Friday projects use 20 points. Friday work is the required textbook-level assignment for the week.
 
 | Category | Points | What It Means |
 |---|---:|---|
@@ -27,7 +27,7 @@ Check:
 
 ## Group Builds
 
-Group builds are practice for Friday.
+Group builds are practice for Friday. They help you get ready for the required individual assignment.
 
 | Category | Points | What It Means |
 |---|---:|---|
@@ -35,6 +35,18 @@ Group builds are practice for Friday.
 | Collaboration | 3 | Your group includes people and shares work. |
 | Working attempt | 2 | Your group makes a serious attempt. |
 | Reflection/demo | 2 | Your group can explain what changed. |
+
+## Extra Credit
+
+Extra credit is optional. It stretches beyond the Friday requirement.
+
+It may ask you to add:
+
+- a harder case
+- cleaner output
+- an extra feature
+- better input handling
+- a short explanation of your design
 
 ## Need Help?
 
@@ -44,3 +56,4 @@ Say:
 - what happened
 - the exact error message
 - what you already tried
+
