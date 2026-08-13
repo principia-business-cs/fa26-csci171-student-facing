@@ -36,4 +36,6 @@ Make sure you can:
 - [Syllabus](./syllabus.md)
 - [Schedule](./schedule.md)
 - [Setup folder](./setup/)
+- [Group builds](./group-builds.md)
+
 
