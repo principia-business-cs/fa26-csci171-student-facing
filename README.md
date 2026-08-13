@@ -38,6 +38,8 @@ Make sure you can:
 - [Setup folder](./setup/)
 - [Group builds](./group-builds.md)
 - [Quiz expectations](./quizzes.md)
+- [Released solutions](./released-solutions.md)
+
 
 
 
