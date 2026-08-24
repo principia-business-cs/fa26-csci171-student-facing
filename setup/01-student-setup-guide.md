@@ -103,7 +103,7 @@ Done when: the repo folder is on your laptop.
 
 ## 6. Start Each Assignment On A Branch
 
-Each assignment gets its own feature branch. This lets your instructor review one assignment at a time.
+Each assignment gets its own feature branch. This lets your instructor fetch and grade one assignment at a time. Use the exact branch name listed in the assignment README.
 
 From inside your assignment repo folder, run:
 
@@ -113,7 +113,7 @@ git pull
 git checkout -b week-01-profile
 ```
 
-Use the assignment name in the branch. Examples:
+Branch names must match the assignment folder name exactly. Examples:
 
 ```text
 week-01-profile
@@ -121,7 +121,20 @@ week-02-calculator
 week-03-decision-quiz
 ```
 
-Done when: `git status` shows you are on the correct assignment branch.
+Done when: `git status` shows you are on the exact branch named in the assignment README.
+
+
+### Why Branch Names Must Match
+
+Your instructor may clone your repo once, then use commands like these while grading:
+
+```powershell
+git fetch --all
+git checkout week-01-profile
+git pull
+```
+
+That only works smoothly if everyone uses the same branch name for the same assignment.
 
 ## 7. Complete The Assignment
 
@@ -144,7 +157,7 @@ git commit -m "Complete week 01 profile"
 git push -u origin week-01-profile
 ```
 
-Replace `week-01-profile` with your branch name.
+Replace `week-01-profile` with the exact branch name from the assignment README.
 
 Done when: GitHub shows your branch online.
 
@@ -160,7 +173,7 @@ Done when: GitHub shows your branch online.
 8. Copy the PR link.
 9. Submit the PR link in Canvas.
 
-Do not merge your own assignment PR unless your instructor tells you to.
+Do not merge your own assignment PR unless your instructor tells you to. Do not delete the branch until the assignment has been graded.
 
 Done when: Canvas has the PR link and your PR is open on GitHub.
 
@@ -204,7 +217,7 @@ git commit -m "Complete week 01 profile"
 git push -u origin week-01-profile
 ```
 
-Then open a pull request on GitHub and submit the PR link in Canvas. For the next assignment, start again from `main` after your instructor has reviewed or merged the previous PR.
+Then open a pull request on GitHub and submit the PR link in Canvas. Your instructor will grade the branch named in that PR. For the next assignment, start again from `main` after your instructor has reviewed or merged the previous PR.
 
 ## If Something Goes Wrong
 

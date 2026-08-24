@@ -21,6 +21,7 @@ Make sure you can:
 - create your own assignment repository from the course template
 - share your assignment repository with your instructor
 - clone your assignment repository to your laptop
+- use the exact assignment branch name from the setup guide
 - submit a GitHub pull request link in Canvas
 - ask for help with a screenshot or exact error message
 
