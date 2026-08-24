@@ -68,8 +68,8 @@ If the repo is under your own GitHub account, invite your instructor so they can
 2. Click `Settings`.
 3. Click `Collaborators` or `Collaborators and teams`.
 4. Click `Add people`.
-5. Search for your instructor's GitHub username or email.
-6. Choose the instructor and send the invitation.
+5. Search for your instructor's GitHub username: `anthonyackahnyanzu`.
+6. Choose `anthonyackahnyanzu` and send the invitation.
 7. Tell your instructor when the invitation is sent.
 
 Use the same repo for the whole semester. You only need to invite the instructor once.
