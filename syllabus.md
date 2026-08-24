@@ -8,7 +8,7 @@ Monday, Wednesday, Friday, 2:20-4:10 p.m.
 
 Instructor: Anthony Ackah Nyanzu  
 Email: Anthony.AckahNyanzu@Principia.edu  
-Office hours: Wednesday and Friday, 4:10-5:00 p.m., and by appointment  
+Office hours: Monday and Friday, 1:00-2:00 p.m., and by appointment  
 Canvas: official grades, due dates, quizzes, and feedback  
 GitHub: course code, setup instructions, starter files, and released solutions
 
