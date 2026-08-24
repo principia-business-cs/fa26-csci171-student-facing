@@ -1,3 +1,8 @@
+# Canvas Syllabus Page
+
+Use this file as the Canvas Syllabus page body. Canvas is the official location for grades, due dates, quizzes, assignment submissions, rubrics, and feedback.
+
+---
 # CSCI 171 - Introduction to Programming
 
 Fall 2026  
