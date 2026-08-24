@@ -1,4 +1,4 @@
-﻿# CSCI171 Introduction to Programming
+# CSCI171 Introduction to Programming
 
 Fall 2026
 
@@ -8,11 +8,9 @@ Welcome to CSCI171. This repo has the course links, setup steps, schedule, and w
 
 1. Read [the syllabus](./syllabus.md).
 2. Check [the schedule](./schedule.md).
-3. Set up [GitHub](./setup/01-github-account.md).
-4. Set up [Thonny](./setup/02-thonny.md).
-5. Read [Git and assignments](./setup/03-git-and-assignments.md).
-6. Skim [what this course prepares you to do](./learning-goals.md).
-7. Skim [how code is graded](./rubrics/how-code-is-graded.md).
+3. Complete the [student setup guide](./setup/01-student-setup-guide.md).
+4. Skim [what this course prepares you to do](./learning-goals.md).
+5. Skim [how code is graded](./rubrics/how-code-is-graded.md).
 
 ## Before The First Assignment
 
@@ -20,7 +18,10 @@ Make sure you can:
 
 - sign in to GitHub
 - run `print("Hello, CSCI171!")` in Thonny
-- find your assignment repository link
+- create your own assignment repository from the course template
+- share your assignment repository with your instructor
+- clone your assignment repository to your laptop
+- submit a GitHub pull request link in Canvas
 - ask for help with a screenshot or exact error message
 
 ## Weekly Pattern
@@ -33,13 +34,10 @@ Make sure you can:
 
 - [Textbook](https://openbookproject.net/thinkcs/python/english3e/)
 - [GitHub organization](https://github.com/principia-business-cs)
+- [Assignment template repo](https://github.com/principia-business-cs/template-csci171-assignments)
 - [Syllabus](./syllabus.md)
 - [Schedule](./schedule.md)
-- [Setup folder](./setup/)
+- [Student setup guide](./setup/01-student-setup-guide.md)
 - [Group builds](./group-builds.md)
 - [Quiz expectations](./quizzes.md)
 - [Released solutions](./released-solutions.md)
-
-
-
-
