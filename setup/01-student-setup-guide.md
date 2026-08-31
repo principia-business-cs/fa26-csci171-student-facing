@@ -289,6 +289,27 @@ git remote -v
 
 Do not use the template repo as `origin`. `origin` is your repo.
 
+If `origin` accidentally points to the class template, fix it before continuing. First check:
+
+```bash
+git remote -v
+```
+
+If `origin` says `principia-business-cs/template-csci171-assignments`, remove the wrong `origin`:
+
+```bash
+git remote remove origin
+```
+
+Then add your own repo as `origin`. Replace `yourgithubusername` first:
+
+```bash
+git remote add origin git@github.com:yourgithubusername/fa26-csci171-yourgithubusername.git
+git remote -v
+```
+
+Done when `origin` points to your repo and `template` points to the class template.
+
 ## 10. Update A Repo You Already Created Earlier
 
 Some students created their assignment repo before the latest starter files were added. Use this section to update your repo.
@@ -503,6 +524,26 @@ git remote -v
 ```
 
 If you see `template`, continue.
+
+### `origin` points to the template repo
+
+Your `origin` should point to your own assignment repo, not the class template.
+
+Check:
+
+```bash
+git remote -v
+```
+
+If `origin` points to `principia-business-cs/template-csci171-assignments`, run:
+
+```bash
+git remote remove origin
+git remote add origin git@github.com:yourgithubusername/fa26-csci171-yourgithubusername.git
+git remote -v
+```
+
+Replace `yourgithubusername` before running the command.
 
 ### `fatal: a branch named ... already exists`
 
