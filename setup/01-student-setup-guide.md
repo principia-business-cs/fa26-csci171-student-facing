@@ -213,12 +213,25 @@ On your GitHub repo page:
 git@github.com:yourgithubusername/fa26-csci171-yourgithubusername.git
 ```
 
-In Git Bash or Terminal, choose a place for your class work:
+In Git Bash or Terminal, first check where you are:
+
+```bash
+pwd
+```
+
+`pwd` means "print working directory." It shows the folder your terminal is currently using.
+
+Helpful note: when you run `mkdir CSCI171`, the new folder will be created inside the folder shown by `pwd`. If you are unsure where you are, ask before continuing.
+
+Now create a class folder and move into it:
 
 ```bash
 mkdir CSCI171
 cd CSCI171
+pwd
 ```
+
+After `cd CSCI171`, the new `pwd` output should end with `CSCI171`.
 
 Clone your repo. Replace `yourgithubusername` with your actual GitHub username.
 
@@ -388,6 +401,17 @@ On GitHub:
 9. Submit the PR link in Canvas.
 
 Do not merge your own assignment PR unless your instructor tells you to.
+
+## Terminal Notes For Beginners
+
+The terminal is a text way to move around folders and run commands.
+
+- Type one command at a time, then press `Enter`.
+- Do not type the `$` or `%` prompt if you see one in examples online.
+- Spelling, spaces, and punctuation matter.
+- Use the up arrow to bring back a command you already ran.
+- In Git Bash, right-click usually pastes. On Mac Terminal, `Command+V` pastes.
+- If you feel lost, run `pwd`, then `ls`, then ask for help with a screenshot.
 
 ## Terminal Navigation Cheat Sheet
 
