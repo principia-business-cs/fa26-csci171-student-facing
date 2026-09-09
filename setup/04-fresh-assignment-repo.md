@@ -2,22 +2,24 @@
 
 Use this guide after deleting your old assignment repo. Your SSH key should already be set up.
 
-Goal: create a new assignment repo from the class template, clone it into a folder named `CSCI171` inside your user profile, and submit assignments with branches and pull requests.
+Goal: create a new empty assignment repo, clone it into a folder named `CSCI171` inside your user profile, and submit assignments with branches and pull requests.
+
+Important: do **not** create your repo from the template, and do **not** connect the template repo as a Git remote. When starter files are needed, your instructor will tell you which files to download or copy.
 
 ## Links You Need
 
-- Class template repo: <https://github.com/principia-business-cs/template-csci171-assignments>
 - Course organization: <https://github.com/principia-business-cs>
+- Starter/template files, when assigned: <https://github.com/principia-business-cs/template-csci171-assignments>
 - Instructor GitHub username: `anthonyackahnyanzu`
 
-## 1. Create Your New Repo From The Template
+## 1. Create Your New Empty Repo
 
-1. Open <https://github.com/principia-business-cs/template-csci171-assignments>.
-2. Click `Use this template`.
-3. Click `Create a new repository`.
-4. Owner: choose your own GitHub account.
-5. Repository name: `fa26-csci171-yourgithubusername`.
-6. Visibility: choose `Private`.
+1. Go to <https://github.com/new>.
+2. Owner: choose your own GitHub account.
+3. Repository name: `fa26-csci171-yourgithubusername`.
+4. Visibility: choose `Private`.
+5. Do not choose a template.
+6. Check `Add a README file`.
 7. Click `Create repository`.
 
 Example: if your GitHub username is `riverstudent`, your repo name is:
@@ -136,27 +138,25 @@ git status
 
 Done when `git status` says you are on branch `main`.
 
-## 8. Connect The Template Remote
+## 8. Check Your Remote
 
-Your repo should have two remotes:
+Your repo should have only one remote for normal class work:
 
 - `origin`: your own assignment repo
-- `template`: the class template repo
 
-Check your remotes:
+Check it:
 
 ```bash
 git remote -v
 ```
 
-Add the class template remote:
+`origin` should look like this, with your username:
 
-```bash
-git remote add template git@github.com:principia-business-cs/template-csci171-assignments.git
-git remote -v
+```text
+git@github.com:yourgithubusername/fa26-csci171-yourgithubusername.git
 ```
 
-If Git says `remote template already exists`, that is okay. Continue.
+Do not add the class template repo as a remote.
 
 If `origin` accidentally points to the template repo, fix it:
 
@@ -168,21 +168,28 @@ git remote -v
 
 Replace `yourgithubusername` before running the command.
 
-## 9. Get Template Updates Later
+## 9. Download Starter Files When Assigned
 
-Use this when your instructor says new starter files are available.
+When starter files are needed, your instructor will tell you exactly which folder or file to use from:
+
+<https://github.com/principia-business-cs/template-csci171-assignments>
+
+Do **not** use `git remote add template`, `git fetch template`, or `git merge template/main`.
+
+Instead, use one of these simple options when your instructor tells you to:
+
+- Download the needed file from GitHub and move it into your repo folder.
+- Download the needed folder as a `.zip`, unzip it, and copy the assignment folder into your repo.
+- Copy code from a class file only when your instructor says that is allowed.
+
+After copying starter files into your repo, save them with Git:
 
 ```bash
-git switch main
-git pull origin main
-git fetch template
-git merge template/main --allow-unrelated-histories
+git status
+git add .
+git commit -m "Add starter files"
 git push origin main
 ```
-
-If Git says `Already up to date`, you already have the newest files.
-
-If Git reports a merge conflict, stop and ask for help.
 
 ## 10. Start An Assignment Branch
 
@@ -287,6 +294,7 @@ Send your instructor:
 - a screenshot or exact error message
 - the command you ran
 - the output of `pwd`
+- the output of `git remote -v`
 - the output of `git status`
 
 Do not send your GitHub password.

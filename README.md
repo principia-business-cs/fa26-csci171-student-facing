@@ -19,7 +19,7 @@ Make sure you can:
 
 - sign in to GitHub
 - run `print("Hello, CSCI171!")` in Thonny
-- create a fresh assignment repository from the course template
+- create a fresh empty assignment repository
 - share your assignment repository with your instructor
 - clone your assignment repository into `CSCI171` inside your user profile
 - use the exact assignment branch name from the setup guide
@@ -36,7 +36,7 @@ Make sure you can:
 
 - [Textbook](https://openbookproject.net/thinkcs/python/english3e/)
 - [GitHub organization](https://github.com/principia-business-cs)
-- [Assignment template repo](https://github.com/principia-business-cs/template-csci171-assignments)
+- [Starter files repo](https://github.com/principia-business-cs/template-csci171-assignments)
 - [Syllabus](./syllabus.md)
 - [Schedule](./schedule.md)
 - [Fresh assignment repo creation](./setup/04-fresh-assignment-repo.md)
