@@ -55,12 +55,12 @@ For CSCI171, you need:
 - Windows students: Git Bash installed
 - Mac students: Terminal can run `git --version`
 - Thonny installed for Python programming
-- Your assignment repository created from the class template
+- Your empty assignment repository created under your own GitHub account
 
 CSCI171 course links:
 
 - Course organization: <https://github.com/principia-business-cs>
-- Assignment template: <https://github.com/principia-business-cs/template-csci171-assignments>
+- Starter files repo, when assigned: <https://github.com/principia-business-cs/template-csci171-assignments>
 - Instructor GitHub username: `anthonyackahnyanzu`
 
 ## 1. Check Git
@@ -173,14 +173,14 @@ It is okay if it also says GitHub does not provide shell access.
 
 ## 6. Create Your Assignment Repository
 
-For CSCI171, you will use one personal assignment repo for the whole semester.
+For CSCI171, you will use one personal assignment repo for the whole semester. Create a normal empty repo under your own GitHub account. Do not create it from the template.
 
-1. Open <https://github.com/principia-business-cs/template-csci171-assignments>.
-2. Click `Use this template`.
-3. Click `Create a new repository`.
-4. Owner: choose your GitHub account.
-5. Repository name: `fa26-csci171-yourgithubusername`.
-6. Visibility: choose `Private`.
+1. Go to <https://github.com/new>.
+2. Owner: choose your GitHub account.
+3. Repository name: `fa26-csci171-yourgithubusername`.
+4. Visibility: choose `Private`.
+5. Do not choose a template.
+6. Check `Add a README file`.
 7. Click `Create repository`.
 
 Example: if your GitHub username is `riverstudent`, your repo name is:
@@ -213,20 +213,21 @@ On your GitHub repo page:
 git@github.com:yourgithubusername/fa26-csci171-yourgithubusername.git
 ```
 
-In Git Bash or Terminal, first check where you are:
+In Git Bash or Terminal, go to your user profile folder first:
 
 ```bash
+cd ~
 pwd
 ```
 
 `pwd` means "print working directory." It shows the folder your terminal is currently using.
 
-Helpful note: when you run `mkdir CSCI171`, the new folder will be created inside the folder shown by `pwd`. If you are unsure where you are, ask before continuing.
+On Windows Git Bash, `pwd` should look something like `/c/Users/YourName`. On Mac Terminal, it should look something like `/Users/YourName`.
 
 Now create a class folder and move into it:
 
 ```bash
-mkdir CSCI171
+mkdir -p CSCI171
 cd CSCI171
 pwd
 ```
@@ -248,14 +249,11 @@ git status
 
 Done when Git says you are on branch `main`.
 
-## 9. Connect Your Repo To The CSCI171 Class Template
+## 9. Check Your Repo Remote
 
-This lets you get new starter files when the instructor updates the template.
-
-Important vocabulary:
+Your repo should have one remote for normal class work:
 
 - `origin` should be your own GitHub assignment repo.
-- `template` should be the class starter-code repo.
 
 Run this from inside your assignment repo folder:
 
@@ -263,98 +261,42 @@ Run this from inside your assignment repo folder:
 git remote -v
 ```
 
-You should already see `origin`. It should point to your repo, like this:
+`origin` should point to your repo, like this:
 
 ```text
 git@github.com:yourgithubusername/fa26-csci171-yourgithubusername.git
 ```
 
-Now add the class template as a second remote:
+Do not add the class template repo as a remote. Do not use `git remote add template`, `git fetch template`, or `git merge template/main`.
 
-```bash
-git remote add template git@github.com:principia-business-cs/template-csci171-assignments.git
-git remote -v
-```
-
-You should see both `origin` and `template`.
-
-If Git says `remote template already exists`, that is okay. Run `git remote -v` and continue.
-
-If you do not see `origin`, add it with your own repo link. Replace `yourgithubusername` first:
-
-```bash
-git remote add origin git@github.com:yourgithubusername/fa26-csci171-yourgithubusername.git
-git remote -v
-```
-
-Do not use the template repo as `origin`. `origin` is your repo.
-
-If `origin` accidentally points to the class template, fix it before continuing. First check:
-
-```bash
-git remote -v
-```
-
-If `origin` says `principia-business-cs/template-csci171-assignments`, remove the wrong `origin`:
+If `origin` accidentally points to the class template, fix it before continuing:
 
 ```bash
 git remote remove origin
-```
-
-Then add your own repo as `origin`. Replace `yourgithubusername` first:
-
-```bash
 git remote add origin git@github.com:yourgithubusername/fa26-csci171-yourgithubusername.git
 git remote -v
 ```
 
-Done when `origin` points to your repo and `template` points to the class template.
+Replace `yourgithubusername` before running the command.
 
-## 10. Update A Repo You Already Created Earlier
+## 10. Download Starter Files When Assigned
 
-Some students created their assignment repo before the latest starter files were added. Use this section to update your repo.
+When starter files are needed, your instructor will tell you exactly which file or folder to download from:
 
-Run these commands from inside your assignment repo folder:
+<https://github.com/principia-business-cs/template-csci171-assignments>
 
-```bash
-git switch main
-git pull origin main
-git remote -v
-```
+Do not connect that repo to your assignment repo. Download or copy only the needed files when assigned.
 
-If you do not see `template`, add it:
+After copying starter files into your repo, save them with Git:
 
 ```bash
-git remote add template git@github.com:principia-business-cs/template-csci171-assignments.git
-```
-
-Now bring in the latest template files:
-
-```bash
-git fetch template
-git merge template/main --allow-unrelated-histories
+git status
+git add .
+git commit -m "Add starter files"
 git push origin main
 ```
 
-If Git says `Already up to date`, you already have the newest starter files.
-
-If Git opens a text editor during the merge, ask for help. That is normal, but it is confusing the first time.
-
-If Git reports a merge conflict, stop and ask for help before guessing.
-
-## 11. Get Future Updates From The CSCI171 Template
-
-Use this when the instructor says new CSCI171 starter files are available later in the semester.
-
-```bash
-git switch main
-git pull origin main
-git fetch template
-git merge template/main --allow-unrelated-histories
-git push origin main
-```
-
-## 12. Start Each Assignment On A Feature Branch
+## 11. Start Each Assignment On A Feature Branch
 
 Each assignment gets its own branch. Use the exact branch name in the assignment instructions.
 
@@ -390,7 +332,7 @@ The branch with the `*` is the branch you are on.
 
 Important: do not do your assignment work directly on `main`. Your assignment work goes on the assignment branch.
 
-## 13. Work, Save, Commit, Push
+## 12. Work, Save, Commit, Push
 
 After you edit your files and test your Python code, run:
 
@@ -407,7 +349,7 @@ For later pushes on the same branch, you can use:
 git push
 ```
 
-## 14. Submit Your Assignment With A Pull Request
+## 13. Submit Your Assignment With A Pull Request
 
 On GitHub:
 
@@ -445,6 +387,8 @@ Use these in Git Bash or Mac Terminal.
 | Go into a folder | `cd folder-name` |
 | Go up one folder | `cd ..` |
 | Make a folder | `mkdir folder-name` |
+| Make the class folder | `mkdir -p CSCI171` |
+| Go to your user profile folder | `cd ~` |
 | Clear the screen | `clear` |
 | Show hidden files too | `ls -a` |
 
@@ -469,18 +413,17 @@ Helpful notes:
 | Push first time | `git push -u origin week-01-profile` |
 | Push after first time | `git push` |
 | Check remote links | `git remote -v` |
-| Add template remote | `git remote add template git@github.com:principia-business-cs/template-csci171-assignments.git` |
-| Get template updates | `git fetch template` |
-| Merge template updates | `git merge template/main --allow-unrelated-histories` |
 
 ## Common First Assignment Flow
 
 ```bash
-cd CSCI171/fa26-csci171-yourgithubusername
+cd ~/CSCI171/fa26-csci171-yourgithubusername
 git switch main
 git pull origin main
-git fetch template
-git merge template/main --allow-unrelated-histories
+# copy starter files into your repo only if your instructor assigned them
+git status
+git add .
+git commit -m "Add starter files"
 git push origin main
 git switch -c week-01-profile
 # edit and test your Python files
@@ -490,7 +433,7 @@ git commit -m "Complete week 01 profile"
 git push -u origin week-01-profile
 ```
 
-Then open a pull request on GitHub and submit the PR link in Canvas. In future classes, the repo name, template remote, and branch names may change, but this same workflow will still be useful.
+Then open a pull request on GitHub and submit the PR link in Canvas. In future classes, the repo name and branch names may change, but this same workflow will still be useful.
 
 ## Common Problems
 
@@ -515,19 +458,9 @@ ls
 
 Then use `cd` to move into your assignment repo folder.
 
-### `remote template already exists`
-
-This is okay. Check it:
-
-```bash
-git remote -v
-```
-
-If you see `template`, continue.
-
 ### `origin` points to the template repo
 
-Your `origin` should point to your own assignment repo, not the class template.
+Your `origin` should point to your own assignment repo, not the class starter/template repo.
 
 Check:
 
