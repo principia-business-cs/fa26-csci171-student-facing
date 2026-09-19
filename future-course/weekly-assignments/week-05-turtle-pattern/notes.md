@@ -1,41 +1,13 @@
 # Notes
 
-## Plan
+## Tests
 
-- 
+1. Input:
+   Expected:
 
-## Tests I Ran
+2. Input:
+   Expected:
 
-```text
-Test 1
-Inputs or actions: 
-Expected result: 
-Actual result: 
-```
+## Reflection
 
-```text
-Test 2
-Inputs or actions: 
-Expected result: 
-Actual result: 
-```
-
-```text
-Test 3
-Inputs or actions: 
-Expected result: 
-Actual result: 
-```
-
-## Stretch Tests, If Attempted
-
-```text
-Stretch Test 1
-Inputs or actions: 
-Expected result: 
-Actual result: 
-```
-
-## One Thing I Would Improve Next
-
-- 
+Write 3-5 sentences explaining what you built, what was hardest, and what you would improve next.

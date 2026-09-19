@@ -1,9 +1,11 @@
-"""Week 04 group build scratch file."""
-
-
-def main():
-    print("Week 04 group build: Guessing Walkthrough")
-
-
-if __name__ == "__main__":
-    main()
+secret = 6
+guess = 0
+tries = 0
+while guess != secret:
+    guess = int(input('Guess: '))
+    tries += 1
+    if guess < secret:
+        print('Too low')
+    elif guess > secret:
+        print('Too high')
+print('Correct in', tries, 'tries')
