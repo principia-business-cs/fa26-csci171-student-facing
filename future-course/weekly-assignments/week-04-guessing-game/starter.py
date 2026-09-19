@@ -1,15 +1,15 @@
-"""
-CSCI171 Week 04: Guessing Game
+secret = 5
+guess = 0
+tries = 0
 
-Start with the required version first. Add the extra credit stretch only
-after the required program runs and is easy to explain.
-"""
+while guess != secret:
+    guess = int(input("Guess a number from 1 to 10: "))
+    tries += 1
+    if guess < secret:
+        print("Too low.")
+    elif guess > secret:
+        print("Too high.")
+    else:
+        print("Correct.")
 
-
-def main():
-    # TODO: Build the Week 04 project here.
-    print("Week 04: Guessing Game")
-
-
-if __name__ == "__main__":
-    main()
+print("Tries:", tries)
