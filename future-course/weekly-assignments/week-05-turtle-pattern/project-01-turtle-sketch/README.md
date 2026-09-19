@@ -1,29 +1,30 @@
-# Mini Project 1: Turtle Sketch And Pattern
+# Project 1: Turtle Sketch And Pattern
 
-## Placement
+## Timing
 
-Future canonical placement: Weeks 5-6.
-
-## Andy Archive Connection
-
-This project is adapted from Andy's `Mini Project 1 - Turtle Sketch`, which asked students to explore the turtle library, create a drawing, and reach Bronze/Silver/Gold levels by using more turtle features.
+- Assigned: Week 5
+- Due: Before the midterm checkpoint; use the exact Canvas due date for the current semester
+- Branch name: `project-01-turtle-sketch`
 
 ## What You Are Building
 
-Create a Python turtle program that draws a recognizable image, badge, pattern, or scene. The drawing does not need to be a perfect work of art, but the code must clearly show that you can use turtle commands, loops, and your first reusable functions.
+Create a Python turtle program that draws a recognizable image, badge, pattern, or scene using turtle commands, loops, and at least one function.
 
-## Textbook And Reference Sections
+## Course Connection
 
-- Official textbook: Chapter 3, Hello, little turtles!; Chapter 7, Iteration; Chapter 4, Functions
-- Turtle chapter: <https://openbookproject.net/thinkcs/python/english3e/hello_little_turtles.html>
-- Iteration chapter: <https://openbookproject.net/thinkcs/python/english3e/iteration.html>
+Adapted from Andy's Mini Project 1: Turtle Sketch. This project proves that students can move from weekly loop/turtle practice into a polished visual artifact.
+
+## References
+
+- Chapter 3, Hello, little turtles!: <https://openbookproject.net/thinkcs/python/english3e/hello_little_turtles.html>
+- Chapter 7, Iteration: <https://openbookproject.net/thinkcs/python/english3e/iteration.html>
 - Turtle reference: <https://docs.python.org/3/library/turtle.html>
 
 ## Requirements I Will Check
 
 - [ ] Program imports and uses `turtle`.
-- [ ] Drawing includes at least one `forward()` command.
-- [ ] Drawing includes at least one `circle()` command.
+- [ ] Drawing includes `forward()`.
+- [ ] Drawing includes `circle()`.
 - [ ] Drawing uses `begin_fill()` and `end_fill()`.
 - [ ] Drawing uses at least one `for` loop.
 - [ ] Drawing uses `pencolor()` and `fillcolor()`.
@@ -56,6 +57,6 @@ Create a Python turtle program that draws a recognizable image, badge, pattern, 
 ## Submission Checklist
 
 - [ ] Branch name is exactly `project-01-turtle-sketch`.
-- [ ] Program runs before submitting.
+- [ ] Program or required setup evidence is complete.
 - [ ] Pull request is open into your repo's `main` branch.
 - [ ] PR link is submitted in Canvas.

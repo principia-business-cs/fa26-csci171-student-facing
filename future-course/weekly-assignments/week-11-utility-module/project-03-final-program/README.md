@@ -1,34 +1,25 @@
-# Final Project: Integrated Python Program
+# Project 3: Final Integrated Python Program
 
-## Placement
+## Timing
 
-Future canonical placement: Weeks 14-16.
-
-## Andy Archive Connection
-
-This project keeps the ambition of Andy's final project specs, especially the bricks-style game option with classes, keyboard control, lists of bricks, collision behavior, and levels. To support different student interests, this future version allows a game, data tool, file tool, or interactive visual program as long as it integrates the course concepts.
+- Assigned: Week 11
+- Due: Week 13, before Thanksgiving week unless Canvas says otherwise
+- Branch name: `project-03-final-program`
 
 ## What You Are Building
 
-Build a small but complete Python program that solves a problem, supports a workflow, tells an interactive story, analyzes data, or creates an interactive visual/game experience. It should feel like a final course artifact, not a single-week exercise.
+Build a small but complete Python program that solves a problem, supports a workflow, tells an interactive story, analyzes data, or creates an interactive visual/game experience.
 
-## Required Concepts
+## Course Connection
 
-- functions
-- conditionals
-- loops
-- at least one collection: list, tuple, or object list
-- one advanced feature: files, events, modules, or classes
-- a clear `main()` entry point
+Grounded in Andy's final bricks-game project, but broadened so students can choose a game, tool, file-based program, or instructor-approved idea while still integrating the same course concepts.
 
-## Project Options
+## References
 
-Choose one:
-
-- Game/interactive visual: for example, a small bricks-style turtle game with paddle, ball, bricks, and levels.
-- Data/helper tool: for example, a study tracker, grade planner, inventory manager, or recommendation tool.
-- File-based tool: for example, a text analyzer, encrypted message helper, or report generator.
-- Instructor-approved idea: propose a clear user, input, output, and advanced feature.
+- Chapter 10, Event handling: <https://openbookproject.net/thinkcs/python/english3e/events.html>
+- Chapter 11, Lists: <https://openbookproject.net/thinkcs/python/english3e/lists.html>
+- Chapter 13, Files: <https://openbookproject.net/thinkcs/python/english3e/files.html>
+- Chapter 15, Classes and Objects: <https://openbookproject.net/thinkcs/python/english3e/classes_and_objects_I.html>
 
 ## Requirements I Will Check
 
@@ -68,6 +59,6 @@ Choose one:
 ## Submission Checklist
 
 - [ ] Branch name is exactly `project-03-final-program`.
-- [ ] Program runs before submitting.
+- [ ] Program or required setup evidence is complete.
 - [ ] Pull request is open into your repo's `main` branch.
 - [ ] PR link is submitted in Canvas.

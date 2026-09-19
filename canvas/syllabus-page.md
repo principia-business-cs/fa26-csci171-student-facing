@@ -141,9 +141,11 @@ The slides are condensed, but they are not a replacement for practice. If you on
 
 ## Programming Projects
 
-Individual Friday projects are completed in class and submitted through Canvas. Some projects may also use GitHub folders or starter files.
+Individual Friday projects are completed in class and submitted through Canvas. Larger course projects are placed inside the weekly folder where they are assigned so students can see the project in context.
 
-Take-home extensions are optional extra credit. They are meant to stretch the Friday project, not replace it. Completed solution examples may be released after submission deadlines so you can compare approaches and learn from them.
+The course has four projects: Project 0 GitHub Setup in Week 1, Project 1 Turtle Sketch in Week 5 due before the midterm checkpoint, Project 2 Functions and Loops in Week 8 after the midterm checkpoint, and Project 3 Final Integrated Program assigned in Week 11 and due in Week 13.
+
+Stretch assignments are the challenge layer on top of required weekly work. They are graded with the project category so students who are ready for more rigor have a clear path to show it without making the base assignment unclear. Completed solution examples may be released after submission deadlines so you can compare approaches and learn from them.
 
 ## Group Builds
 

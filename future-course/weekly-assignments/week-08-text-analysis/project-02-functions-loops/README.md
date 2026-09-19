@@ -1,29 +1,30 @@
-# Midterm Project: Functions And Loops Visual Builder
+# Project 2: Functions And Loops Visual Builder
 
-## Placement
+## Timing
 
-Future canonical placement: Weeks 8-9.
-
-## Andy Archive Connection
-
-This project combines the spirit of Andy's `Functions Project` and `Loops Project`: students build a visual program by decomposing the work into functions, using parameters, and relying on loops instead of copy-paste repetition.
+- Assigned: Week 8, after the midterm checkpoint
+- Due: Week 10, before the Final Project launch unless Canvas says otherwise
+- Branch name: `project-02-functions-loops`
 
 ## What You Are Building
 
-Create a visual Python program that draws a structured image or pattern using functions and loops. Your goal is to prove that you can break a larger problem into smaller parts, send information into functions with parameters, and use loops to create repetition.
+Create a visual Python program that draws a structured image or pattern using functions, parameters, return values, and loops.
 
-## Textbook And Reference Sections
+## Course Connection
 
-- Official textbook: Chapter 4, Functions; Chapter 6, Fruitful functions; Chapter 7, Iteration
-- Functions: <https://openbookproject.net/thinkcs/python/english3e/functions.html>
-- Fruitful functions: <https://openbookproject.net/thinkcs/python/english3e/fruitful_functions.html>
-- Iteration: <https://openbookproject.net/thinkcs/python/english3e/iteration.html>
+This combines Andy's Functions Project and Loops Project: decomposition, parameters, local variables, `main()`, repeated visual patterns, and incremental development.
+
+## References
+
+- Chapter 4, Functions: <https://openbookproject.net/thinkcs/python/english3e/functions.html>
+- Chapter 6, Fruitful functions: <https://openbookproject.net/thinkcs/python/english3e/fruitful_functions.html>
+- Chapter 7, Iteration: <https://openbookproject.net/thinkcs/python/english3e/iteration.html>
 
 ## Requirements I Will Check
 
 - [ ] Program has a clear visual goal described in a top comment or `notes.md`.
 - [ ] Program defines a `main()` function and calls it at the bottom.
-- [ ] Nothing runs at indentation 0 except imports, function definitions, constants, and the `main()` call.
+- [ ] Nothing runs at indentation 0 except imports, constants, function definitions, and the `main()` call.
 - [ ] Program defines at least four functions besides `main()`.
 - [ ] At least two functions use parameters.
 - [ ] At least one function returns a value and that value is used.
@@ -57,6 +58,6 @@ Create a visual Python program that draws a structured image or pattern using fu
 ## Submission Checklist
 
 - [ ] Branch name is exactly `project-02-functions-loops`.
-- [ ] Program runs before submitting.
+- [ ] Program or required setup evidence is complete.
 - [ ] Pull request is open into your repo's `main` branch.
 - [ ] PR link is submitted in Canvas.
