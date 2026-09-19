@@ -32,6 +32,11 @@ Make sure you can:
 - Wednesday: group programming build
 - Friday: individual in-class coding project and short check
 
+
+## Future Course Materials
+
+Future normalized versions of assignments and projects are staged in [future-course](./future-course/README.md). Use those only when they are linked from Canvas or announced in class.
+
 ## Links
 
 - [Textbook](https://openbookproject.net/thinkcs/python/english3e/)
