@@ -57,6 +57,10 @@ print('First three:', text[:3])
 - [ ] Use functions to separate counting from printing.
 - [ ] Handle empty input with a helpful message.
 
+## Project Assigned This Week
+
+- [Project 2: Functions And Loops Visual Builder](./project-02-functions-loops/README.md)
+
 ## Submission Checklist
 
 - [ ] Branch name is exactly `week-08-text-analysis`.

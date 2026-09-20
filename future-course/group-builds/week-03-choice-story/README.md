@@ -2,33 +2,31 @@
 
 ## Goal
 
-Create a short branching story or campus decision tool that changes its output based on user choices.
+Create a short branching story or recommendation tool where choices affect the ending.
 
 ## Textbook Connection
 
-- Chapter 5: Conditionals
-- Textbook: <https://openbookproject.net/thinkcs/python/english3e/conditionals.html>
-- W3Schools: <https://www.w3schools.com/python/python_conditions.asp>
+- Chapter 5
+- Textbook: <https://openbookproject.net/thinkcs/python/english3e/>
 
 ## Build Requirements
 
-- [ ] Ask the user at least three questions.
-- [ ] Use `.strip()` or `.lower()` before comparing at least one text answer.
-- [ ] Use at least one `if` / `else`.
-- [ ] Use at least one `if` / `elif` / `else` with three paths.
-- [ ] Use at least one condition with `and` or `or`.
-- [ ] Track a score, mood, route, or category variable.
-- [ ] Print a final ending that depends on earlier choices.
+- [ ] Ask at least three questions.
+- [ ] Clean at least one text input with `.strip()` or `.lower()`.
+- [ ] Use `if` / `else`.
+- [ ] Use `if` / `elif` / `else`.
+- [ ] Use `and` or `or`.
+- [ ] Track a score, category, route, or ending variable.
 
 ## Reflection Prompt
 
-In Canvas, submit 3-5 sentences: Which decision in your code affected the final ending the most?
+In Canvas, submit 3-5 sentences: What did your group build, what did you personally contribute, and what would you improve with 20 more minutes?
 
 ## Rubric
 
 | Area | Points | Evidence |
 |---|---:|---|
-| Branching | 4 | Required conditional forms are present |
-| Input handling | 2 | Text input is cleaned before comparison |
-| State tracking | 2 | A score/category changes based on choices |
-| Reflection | 2 | Reflection explains one important branch |
+| Core concept | 4 | The main weekly concept appears and works |
+| Collaboration | 2 | Each member can explain a part of the code |
+| Clarity | 2 | Output, comments, or notes make the code readable |
+| Reflection | 2 | Reflection names contribution and next improvement |

@@ -10,15 +10,19 @@ The course is moving toward one student-facing source of truth. The template rep
 
 - `weekly-assignments/`: future canonical versions of weekly individual assignments
 - `group-builds/`: future canonical group practice builds
-- `projects/`: larger course project specs
+- project specs live inside the weekly assignment folder where they are assigned
 
 ## Student Rule
 
 Your code lives in your own private repo. Assignment instructions live here. Do not connect your repo to this course repo unless your instructor explicitly tells you to.
+
 ## Future Weekly Map
 
-Weeks 1-5 are already staged above in this folder. These additional normalized materials continue the sequence:
-
+- [week-01-profile](./weekly-assignments/week-01-profile/README.md)
+- [week-02-calculator](./weekly-assignments/week-02-calculator/README.md)
+- [week-03-decision-quiz](./weekly-assignments/week-03-decision-quiz/README.md)
+- [week-04-guessing-game](./weekly-assignments/week-04-guessing-game/README.md)
+- [week-05-turtle-pattern](./weekly-assignments/week-05-turtle-pattern/README.md)
 - [week-06-function-drawing](./weekly-assignments/week-06-function-drawing/README.md)
 - [week-07-function-suite](./weekly-assignments/week-07-function-suite/README.md)
 - [week-08-text-analysis](./weekly-assignments/week-08-text-analysis/README.md)
@@ -33,6 +37,11 @@ Weeks 1-5 are already staged above in this folder. These additional normalized m
 
 ## Future Group Build Map
 
+- [week-01-error-detective](./group-builds/week-01-error-detective/README.md)
+- [week-02-calculator-remix](./group-builds/week-02-calculator-remix/README.md)
+- [week-03-choice-story](./group-builds/week-03-choice-story/README.md)
+- [week-04-guessing-walkthrough](./group-builds/week-04-guessing-walkthrough/README.md)
+- [week-05-turtle-without-magic](./group-builds/week-05-turtle-without-magic/README.md)
 - [week-06-turtle-functions](./group-builds/week-06-turtle-functions/README.md)
 - [week-07-function-tests](./group-builds/week-07-function-tests/README.md)
 - [week-08-text-analyzer](./group-builds/week-08-text-analyzer/README.md)
@@ -47,6 +56,9 @@ Weeks 1-5 are already staged above in this folder. These additional normalized m
 
 ## Future Major Projects
 
-- [Mini Project 1: Turtle Sketch and Pattern](./projects/mini-project-1-turtle-sketch-and-pattern.md)
-- [Midterm Project: Personal Data Helper](./projects/midterm-project-data-helper.md)
-- [Final Project: Integrated Python Program](./projects/final-project-integrated-python-program.md)
+Projects are stored inside the week where they are assigned:
+
+- [Project 0: GitHub Setup And First Pull Request](./weekly-assignments/week-01-profile/project-00-github-setup/README.md)
+- [Project 1: Turtle Sketch And Pattern](./weekly-assignments/week-05-turtle-pattern/project-01-turtle-sketch/README.md)
+- [Project 2: Functions And Loops Visual Builder](./weekly-assignments/week-08-text-analysis/project-02-functions-loops/README.md)
+- [Project 3: Final Integrated Python Program](./weekly-assignments/week-11-utility-module/project-03-final-program/README.md)

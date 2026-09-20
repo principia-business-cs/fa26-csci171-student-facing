@@ -61,6 +61,10 @@ print(utils.shout('hello'))
 - [ ] Add input validation in the module, not just in the main file.
 - [ ] Use the module in a second small demo program.
 
+## Project Assigned This Week
+
+- [Project 3: Final Integrated Python Program](./project-03-final-program/README.md)
+
 ## Submission Checklist
 
 - [ ] Branch name is exactly `week-11-utility-module`.
