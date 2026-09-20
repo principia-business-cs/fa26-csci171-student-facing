@@ -1,15 +1,16 @@
-"""
-CSCI171 Week 05: Turtle Pattern Drawing
+import turtle
 
-Start with the required version first. Add the extra credit stretch only
-after the required program runs and is easy to explain.
-"""
+artist = turtle.Turtle()
+artist.speed(6)
+artist.pencolor("blue")
 
+for side in range(4):
+    artist.forward(80)
+    artist.right(90)
 
-def main():
-    # TODO: Build the Week 05 project here.
-    print("Week 05: Turtle Pattern Drawing")
+artist.penup()
+artist.forward(120)
+artist.pendown()
+artist.circle(40)
 
-
-if __name__ == "__main__":
-    main()
+turtle.done()

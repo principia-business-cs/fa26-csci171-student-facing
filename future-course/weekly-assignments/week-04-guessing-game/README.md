@@ -1,66 +1,64 @@
-# Week 04 Future Assignment: Guessing Game
+# Week 04 Future Assignment: Guessing Game With A Loop
 
 ## What You Are Building
 
-Build a number guessing game that uses a loop to keep asking until the game ends.
+Create a guessing game that keeps running until the user reaches a correct answer or a clear stopping condition.
 
 ## Textbook And Reference Sections
 
 - Official textbook: Chapter 7, Iteration
-- Textbook link: <https://openbookproject.net/thinkcs/python/english3e/iteration.html>
-- W3Schools references:
-  - Python While Loops: <https://www.w3schools.com/python/python_while_loops.asp>
-  - Python Break: <https://www.w3schools.com/python/python_while_loops.asp>
+- Textbook section: <https://openbookproject.net/thinkcs/python/english3e/iteration.html>
+- Additional reference: <https://www.w3schools.com/python/python_while_loops.asp>
 
 ## Concepts You Need
 
-- A `while` loop repeats while a condition is true.
-- `while True:` creates an intentional loop that must stop with `break`.
-- `break` exits the nearest loop.
-- A sentinel value is a special value that tells the program to stop.
-- A counter variable can track attempts.
+- A `while` loop repeats while its condition is true.
+- A sentinel or loop-control variable helps decide when to stop.
+- Conditionals inside loops give feedback each round.
+- Counters track how many times something happened.
+- Good loops have a clear way to end.
 
 ## Small Example
 
 ```python
-while True:
-    answer = input("Type quit to stop: ")
-    if answer == "quit":
-        break
-    print("You typed", answer)
+secret = 5
+guess = 0
+while guess != secret:
+    guess = int(input('Guess: '))
 ```
 
 ## Requirements I Will Check
 
-- [ ] Use a `while` loop to repeat guesses.
-- [ ] Use either a sentinel condition or `while True` with `break`.
-- [ ] Ask for numeric input and convert it with `int()`.
-- [ ] Use conditionals to print too high, too low, or correct.
-- [ ] Track the number of guesses with a counter.
-- [ ] Stop after the correct answer or quit condition.
-- [ ] Print a final summary that includes the number of guesses.
-- [ ] `notes.md` includes at least three test cases, including a win path and repeated wrong guesses.
+- [ ] Use a `while` loop.
+- [ ] Use a sentinel or loop-control variable.
+- [ ] Ask the user for guesses with `input()`.
+- [ ] Convert guesses to numbers with `int()`.
+- [ ] Give different feedback for too low, too high, and correct.
+- [ ] Count the number of guesses.
+- [ ] Print a final success message that includes the guess count.
+- [ ] Avoid an accidental infinite loop.
+- [ ] `notes.md` includes at least three test cases or a short trace of the loop.
 
 ## Rubric
 
 | Area | Points | Evidence |
 |---|---:|---|
-| Loop control | 4 | Loop repeats and stops correctly |
-| Conditional feedback | 2 | Too high/too low/correct works |
-| Counter and summary | 2 | Attempt count is accurate |
-| Testing | 2 | Tests include different paths |
+| Loop control | 4 | Loop starts, repeats, and stops correctly |
+| Conditional feedback | 2 | Low/high/correct branches work |
+| Counter | 2 | Attempts are counted accurately |
+| Testing | 2 | Notes trace important loop paths |
 
 ## Stretch 1
 
-- [ ] Add difficulty levels with different ranges.
-- [ ] Print the selected range before guessing starts.
-- [ ] Add two more tests for difficulty levels.
+- [ ] Add difficulty levels or a custom number range.
+- [ ] Validate that the guess is inside the chosen range.
+- [ ] Add two tests for the difficulty/range behavior.
 
 ## Stretch 2
 
-- [ ] Add replay.
-- [ ] Track best score during one run.
-- [ ] Use a helper function or nested loop to keep the code readable.
+- [ ] Add replay so the user can play more than once.
+- [ ] Track the best score across rounds.
+- [ ] Use a helper function for one part of the game if you know functions already.
 
 ## Submission Checklist
 

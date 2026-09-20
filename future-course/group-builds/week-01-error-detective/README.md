@@ -2,33 +2,31 @@
 
 ## Goal
 
-Work together to find and fix broken `print()` examples. The point is to practice reading Python carefully and explaining what changed.
+Work together to find, explain, and fix broken `print()` and expression examples.
 
 ## Textbook Connection
 
-- Chapter 1: The way of the program
-- Chapter 2: Variables, expressions and statements
+- Chapter 1 and Chapter 2
 - Textbook: <https://openbookproject.net/thinkcs/python/english3e/>
 
 ## Build Requirements
 
 - [ ] Fix at least six broken print or expression examples.
-- [ ] Include at least one multi-line print using triple quotes.
-- [ ] Include at least one example using string concatenation with `+`.
-- [ ] Include at least one example using a comma inside `print()`.
-- [ ] Include at least one example with math inside `print()`.
-- [ ] For each fix, add a short comment explaining the problem in plain English.
-- [ ] Everyone in the group should be able to explain one fixed line.
+- [ ] Include one multi-line print using triple quotes.
+- [ ] Include one string concatenation example.
+- [ ] Include one comma-printing example.
+- [ ] Include one math-inside-print example.
+- [ ] Each group member explains one fix.
 
 ## Reflection Prompt
 
-In Canvas, submit 3-5 sentences: What was one bug your group fixed, and what clue helped you find it?
+In Canvas, submit 3-5 sentences: What did your group build, what did you personally contribute, and what would you improve with 20 more minutes?
 
 ## Rubric
 
 | Area | Points | Evidence |
 |---|---:|---|
-| Bug fixes | 4 | Six examples run correctly |
-| Print variety | 3 | Multi-line, concatenation, comma, and math examples appear |
-| Explanation | 2 | Comments explain the fixes clearly |
-| Participation reflection | 1 | Reflection describes group process |
+| Core concept | 4 | The main weekly concept appears and works |
+| Collaboration | 2 | Each member can explain a part of the code |
+| Clarity | 2 | Output, comments, or notes make the code readable |
+| Reflection | 2 | Reflection names contribution and next improvement |

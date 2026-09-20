@@ -1,15 +1,11 @@
-"""
-CSCI171 Week 03: Decision Quiz
+print("Decision Quiz Starter")
+score = 0
 
-Start with the required version first. Add the extra credit stretch only
-after the required program runs and is easy to explain.
-"""
+answer = input("Which keyword starts a decision in Python? " ).strip().lower()
+if answer == "if":
+    score += 1
+    print("Correct.")
+else:
+    print("Review conditionals.")
 
-
-def main():
-    # TODO: Build the Week 03 project here.
-    print("Week 03: Decision Quiz")
-
-
-if __name__ == "__main__":
-    main()
+print("Score:", score)

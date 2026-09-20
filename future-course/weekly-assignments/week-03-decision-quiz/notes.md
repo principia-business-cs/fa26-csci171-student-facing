@@ -1,32 +1,13 @@
-# Week 03 Decision Quiz Notes
+# Notes
 
-Use this file for planning and test cases.
+## Tests
 
-## Required Test Cases
+1. Input:
+   Expected:
 
-Test 1
-Inputs:
-Expected result:
-Actual result:
+2. Input:
+   Expected:
 
-Test 2
-Inputs:
-Expected result:
-Actual result:
+## Reflection
 
-Test 3
-Inputs:
-Expected result:
-Actual result:
-
-## Stretch Test Cases, If Attempted
-
-Test 4
-Inputs:
-Expected result:
-Actual result:
-
-Test 5
-Inputs:
-Expected result:
-Actual result:
+Write 3-5 sentences explaining what you built, what was hardest, and what you would improve next.

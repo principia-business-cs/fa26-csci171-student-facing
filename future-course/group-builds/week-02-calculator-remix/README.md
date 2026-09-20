@@ -2,32 +2,31 @@
 
 ## Goal
 
-Build a small calculator that asks for input, converts values to numbers, computes results, and prints a readable summary.
+Build a small calculator together, then remix it by changing the purpose or inputs.
 
 ## Textbook Connection
 
-- Chapter 2: Variables, expressions and statements
-- Chapter 3: Hello, little turtles! for experimenting with Python one line at a time
-- W3Schools: <https://www.w3schools.com/python/python_operators.asp>
+- Chapter 2
+- Textbook: <https://openbookproject.net/thinkcs/python/english3e/>
 
 ## Build Requirements
 
 - [ ] Ask for at least three inputs.
-- [ ] Convert at least one input with `int()` and one input with `float()`.
-- [ ] Store intermediate results in clearly named variables.
-- [ ] Use at least three arithmetic operators from `+`, `-`, `*`, `/`, `//`, `%`, or `**`.
-- [ ] Print a final labeled summary, not just loose numbers.
+- [ ] Use both `int()` and `float()`.
+- [ ] Use at least three arithmetic operators.
+- [ ] Store intermediate results in named variables.
+- [ ] Print a labeled summary.
 - [ ] Test with two different sets of inputs.
 
 ## Reflection Prompt
 
-In Canvas, submit 3-5 sentences: Which conversion or operator was easiest to misuse, and how did your group check it?
+In Canvas, submit 3-5 sentences: What did your group build, what did you personally contribute, and what would you improve with 20 more minutes?
 
 ## Rubric
 
 | Area | Points | Evidence |
 |---|---:|---|
-| Input and conversion | 3 | Uses input, `int()`, and `float()` correctly |
-| Arithmetic | 3 | Uses at least three operators correctly |
-| Variable clarity | 2 | Names make the calculation readable |
-| Testing/reflection | 2 | Two tests and short reflection are present |
+| Core concept | 4 | The main weekly concept appears and works |
+| Collaboration | 2 | Each member can explain a part of the code |
+| Clarity | 2 | Output, comments, or notes make the code readable |
+| Reflection | 2 | Reflection names contribution and next improvement |

@@ -2,32 +2,30 @@
 
 ## What You Are Building
 
-Create a short interactive quiz, recommendation tool, or branching prompt that uses conditionals to make decisions from user input.
+Create an interactive quiz, recommendation tool, or branching prompt that uses conditionals to choose different paths from user input.
 
 ## Textbook And Reference Sections
 
 - Official textbook: Chapter 5, Conditionals
-- Textbook link: <https://openbookproject.net/thinkcs/python/english3e/conditionals.html>
-- W3Schools references:
-  - Python Conditions: <https://www.w3schools.com/python/python_conditions.asp>
-  - Python Operators: <https://www.w3schools.com/python/python_operators.asp>
+- Textbook section: <https://openbookproject.net/thinkcs/python/english3e/conditionals.html>
+- Additional reference: <https://www.w3schools.com/python/python_conditions.asp>
 
 ## Concepts You Need
 
 - A Boolean expression is either `True` or `False`.
-- `if`, `elif`, and `else` let a program choose between paths.
-- `==` compares values. `=` assigns a value.
+- `if`, `elif`, and `else` let the program choose among paths.
+- `==` compares values; `=` assigns values.
 - `and`, `or`, and `not` combine or reverse conditions.
-- `.strip()` and `.lower()` can clean text input before comparison.
+- Input cleanup such as `.strip()` and `.lower()` makes comparisons more reliable.
 
 ## Small Example
 
 ```python
-answer = input("Do you like Python? ").strip().lower()
-if answer == "yes":
-    print("Excellent choice.")
+answer = input('Do you like Python? ').strip().lower()
+if answer == 'yes':
+    print('Excellent choice.')
 else:
-    print("Keep practicing.")
+    print('Keep practicing.')
 ```
 
 ## Requirements I Will Check
@@ -39,7 +37,7 @@ else:
 - [ ] Use at least one `if` / `else` decision.
 - [ ] Use at least one `if` / `elif` / `else` chain with three or more paths.
 - [ ] Use at least one multiple-condition expression with `and` or `or`.
-- [ ] Track a score, category, or result variable.
+- [ ] Track a score, category, route, or result variable.
 - [ ] Print a final result that depends on that variable.
 - [ ] `notes.md` includes at least three test cases showing different paths.
 
