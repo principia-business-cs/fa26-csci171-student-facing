@@ -1,26 +1,15 @@
-"""
-CSCI171 Week 01: Personal Intro Program
+print("CSCI 171 Profile Card")
+print("=====================")
 
-Start with the required version first. Add the extra credit stretch only
-after the required program runs and is easy to explain.
-"""
+name = "Sample Student"
+hometown = "Elsah, Illinois"
+favorite_number = 7
 
-
-def main():
-    # TODO: Replace these sample values with your own.
-    name = "Your Name"
-    hometown = "Your Hometown"
-    favorite_food = "Your Favorite Food"
-    year = 2026
-
-    print("Week 01: Personal Intro Program")
-    print()
-    print("Name: " + name)
-    print("Hometown:", hometown)
-    print("Favorite food: " + favorite_food)
-    print("One week has", 7 * 24, "hours.")
-    print("This program was written in", year)
-
-
-if __name__ == "__main__":
-    main()
+print("Name: " + name)
+print("Hometown: " + hometown)
+print("Favorite number:", favorite_number)
+print("Favorite number doubled:", favorite_number * 2)
+print("""
+One thing I want classmates to know:
+I am practicing clear Python output.
+""")

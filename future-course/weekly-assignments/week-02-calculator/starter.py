@@ -1,15 +1,13 @@
-"""
-CSCI171 Week 02: Friendly Calculator
+print("Friendly Calculator Starter")
 
-Start with the required version first. Add the extra credit stretch only
-after the required program runs and is easy to explain.
-"""
+price = float(input("Item price: "))
+quantity = int(input("Quantity: "))
+tax_rate = 0.08
 
+subtotal = price * quantity
+tax = subtotal * tax_rate
+total = subtotal + tax
 
-def main():
-    # TODO: Build the Week 02 project here.
-    print("Week 02: Friendly Calculator")
-
-
-if __name__ == "__main__":
-    main()
+print("Subtotal:", round(subtotal, 2))
+print("Tax:", round(tax, 2))
+print("Total:", round(total, 2))
