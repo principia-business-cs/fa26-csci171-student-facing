@@ -29,6 +29,7 @@ This is a course infrastructure project. It supports every later programming ass
 - [ ] Clone your own repository into that folder.
 - [ ] Create a feature branch named exactly `project-00-github-setup`.
 - [ ] Add a `README.md` or `notes.md` file with your name, course, and one sentence confirming Git setup.
+- [ ] Read the required folder organization section in the setup guide so future assignments use consistent week folders.
 - [ ] Commit with a clear message.
 - [ ] Push the branch to GitHub.
 - [ ] Open a pull request into your repo's `main` branch.
