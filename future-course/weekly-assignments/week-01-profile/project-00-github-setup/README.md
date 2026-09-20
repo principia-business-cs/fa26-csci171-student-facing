@@ -14,14 +14,15 @@ Set up the workflow you will use all semester: local `CSCI171` folder, GitHub re
 
 This is a course infrastructure project. It supports every later programming assignment and is graded for completion and accuracy, not programming difficulty.
 
-## References
+## Start Here
 
-- Student setup guide: `setup/01-student-setup-guide.md`
-- Fresh repo creation: `setup/04-fresh-assignment-repo.md`
+- Follow [Project 0 GitHub Setup Guide](./github-setup-guide.md). This is the setup source of truth for Project 0.
 - GitHub: <https://github.com/>
+
 
 ## Requirements I Will Check
 
+- [ ] Follow the consolidated Project 0 GitHub setup guide.
 - [ ] Create or confirm your private CSCI171 assignment repository.
 - [ ] Share the repository with the instructor using the instructor GitHub username from the setup guide.
 - [ ] Create a local `CSCI171` folder inside your user profile.
@@ -61,3 +62,4 @@ This is a course infrastructure project. It supports every later programming ass
 - [ ] Program or required setup evidence is complete.
 - [ ] Pull request is open into your repo's `main` branch.
 - [ ] PR link is submitted in Canvas.
+
