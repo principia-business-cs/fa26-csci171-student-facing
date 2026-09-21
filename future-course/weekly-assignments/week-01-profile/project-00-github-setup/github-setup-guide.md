@@ -255,6 +255,62 @@ git@github.com:yourgithubusername/fa26-csci171-yourgithubusername.git
 
 Do not connect the class template repo as a remote.
 
+## Required Folder Organization For Assignments
+
+Starting with new assignments, keep your repo organized by week. Some older assignments may not match this yet, and that is okay. Use this structure going forward.
+
+Use lowercase folder names and hyphens instead of spaces.
+
+```text
+fa26-csci171-yourgithubusername/
+  week-03/
+    group-build/
+    individual-assignment/
+    stretch/
+  week-04/
+    group-build/
+    individual-assignment/
+    stretch/
+  week-05/
+    group-build/
+    individual-assignment/
+    project-01-turtle-sketch/
+```
+
+If a week does not have a stretch assignment or project, you do not need to create that folder.
+
+Example for Week 4:
+
+```bash
+mkdir -p week-04/group-build
+mkdir -p week-04/individual-assignment
+mkdir -p week-04/stretch
+```
+
+A good Week 4 submission might look like this:
+
+```text
+week-04/
+  group-build/
+    group_guessing_game.py
+  individual-assignment/
+    guessing_game.py
+  stretch/
+    guessing_game_stretch_1.py
+    guessing_game_stretch_2.py
+```
+
+For larger projects, put the project folder inside the week when the project is assigned:
+
+```text
+week-05/
+  project-01-turtle-sketch/
+    turtle_sketch.py
+    README.md
+```
+
+This organization helps your instructor find your work quickly and helps you avoid losing files as the semester gets busier.
+
 ## 9. Create The Project 0 Branch
 
 Run these commands inside your repo folder:
@@ -337,21 +393,22 @@ git pull origin main
 git switch -c assignment-week-03-individual
 ```
 
-6. Copy or download any starter file linked from the assignment directions, if the assignment uses one.
-7. Work on the assignment in VS Code or Thonny.
-8. Test your program before submitting:
+6. Create the week folder and assignment subfolder if they do not exist yet. Example: `mkdir -p week-04/individual-assignment`.
+7. Copy or download any starter file linked from the assignment directions, if the assignment uses one, and place it in the correct folder.
+8. Work on the assignment in VS Code or Thonny.
+9. Test your program before submitting:
 
 ```bash
 python your_file_name.py
 ```
 
-9. Check what changed:
+10. Check what changed:
 
 ```bash
 git status
 ```
 
-10. Add, commit, and push your work:
+11. Add, commit, and push your work:
 
 ```bash
 git add .
@@ -359,8 +416,8 @@ git commit -m "Complete week 03 individual assignment"
 git push -u origin assignment-week-03-individual
 ```
 
-11. Open your repo on GitHub and create a pull request from your assignment branch into `main`.
-12. Submit the pull request link in Canvas.
+12. Open your repo on GitHub and create a pull request from your assignment branch into `main`.
+13. Submit the pull request link in Canvas.
 
 If you accidentally start work on `main`, stop and ask for help. That is fixable, and it is much easier to fix before you keep working.
 
@@ -437,5 +494,4 @@ Send your instructor:
 - the output of `git remote -v`
 
 Do not send your GitHub password.
-
 
