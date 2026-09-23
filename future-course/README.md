@@ -1,22 +1,19 @@
 # Future CSCI171 Course Materials
 
-This folder contains normalized future-course materials. These files are not automatically the current semester assignment unless your instructor links them from Canvas or announces them in class.
-
-## Why This Exists
-
-The course is moving toward one student-facing source of truth. The template repo still exists for now, but future students should read assignments from this student-facing repo and keep their own code in their own private GitHub repo.
+This folder is the canonical student-facing home for CSCI171 assignments, group builds, projects, schedule, and course expectations.
 
 ## Folders
 
-- `weekly-assignments/`: future canonical versions of weekly individual assignments
-- `group-builds/`: future canonical group practice builds
-- project specs live inside the weekly assignment folder where they are assigned
+- `weekly-assignments/`: weekly individual assignments and major projects
+- `group-builds/`: Wednesday group practice builds
+- [schedule.md](./schedule.md): semester schedule
+- [course-info.md](./course-info.md): grading, quiz, group build, and released-solution expectations
 
 ## Student Rule
 
 Your code lives in your own private repo. Assignment instructions live here. Do not connect your repo to this course repo unless your instructor explicitly tells you to.
 
-## Future Weekly Map
+## Weekly Assignment Map
 
 - [week-01-profile](./weekly-assignments/week-01-profile/README.md)
 - [week-02-calculator](./weekly-assignments/week-02-calculator/README.md)
@@ -35,7 +32,7 @@ Your code lives in your own private repo. Assignment instructions live here. Do 
 - [week-15-small-class](./weekly-assignments/week-15-small-class/README.md)
 - [week-16-final-reflection](./weekly-assignments/week-16-final-reflection/README.md)
 
-## Future Group Build Map
+## Group Build Map
 
 - [week-01-error-detective](./group-builds/week-01-error-detective/README.md)
 - [week-02-calculator-remix](./group-builds/week-02-calculator-remix/README.md)
@@ -54,7 +51,7 @@ Your code lives in your own private repo. Assignment instructions live here. Do 
 - [week-15-object-modeling](./group-builds/week-15-object-modeling/README.md)
 - [week-16-demo-prep](./group-builds/week-16-demo-prep/README.md)
 
-## Future Major Projects
+## Major Projects
 
 Projects are stored inside the week where they are assigned:
 
