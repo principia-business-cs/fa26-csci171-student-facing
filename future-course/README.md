@@ -8,6 +8,7 @@ This folder is the canonical student-facing home for CSCI171 assignments, group 
 - `group-builds/`: Wednesday group practice builds
 - [schedule.md](./schedule.md): semester schedule
 - [course-info.md](./course-info.md): grading, quiz, group build, and released-solution expectations
+- [Project 0 GitHub Setup Guide](./weekly-assignments/week-01-profile/project-00-github-setup/github-setup-guide.md): one setup guide for GitHub, SSH, branches, commits, pushes, pull requests, and starting new assignments
 
 ## Student Rule
 
@@ -59,3 +60,4 @@ Projects are stored inside the week where they are assigned:
 - [Project 1: Turtle Sketch And Pattern](./weekly-assignments/week-05-turtle-pattern/project-01-turtle-sketch/README.md)
 - [Project 2: Functions And Loops Visual Builder](./weekly-assignments/week-08-text-analysis/project-02-functions-loops/README.md)
 - [Project 3: Final Integrated Python Program](./weekly-assignments/week-11-utility-module/project-03-final-program/README.md)
+
