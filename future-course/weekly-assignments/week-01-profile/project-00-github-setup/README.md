@@ -16,7 +16,7 @@ This is a course infrastructure project. It supports every later programming ass
 
 ## Start Here
 
-- Follow [Project 0 GitHub Setup Guide](./github-setup-guide.md). This is the setup source of truth for Project 0.
+- Follow [Project 0 GitHub Setup Guide](../../../github-setup-guide.md). This is the setup source of truth for Project 0.
 - GitHub: <https://github.com/>
 
 
@@ -63,4 +63,5 @@ This is a course infrastructure project. It supports every later programming ass
 - [ ] Program or required setup evidence is complete.
 - [ ] Pull request is open into your repo's `main` branch.
 - [ ] PR link is submitted in Canvas.
+
 
