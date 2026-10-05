@@ -26,4 +26,5 @@ Welcome to CSCI171. This repo is the student-facing home for the syllabus, setup
 - [Syllabus folder](./syllabus/README.md)
 - [Course materials](./future-course/README.md)
 - [Project 0 GitHub Setup Guide](./future-course/github-setup-guide.md)
+- [In-class practice](./in-class/README.md)
 
