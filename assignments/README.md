@@ -1,4 +1,4 @@
-# Future CSCI171 Course Materials
+# CSCI171 Assignments And Course Materials
 
 This folder is the canonical student-facing home for CSCI171 assignments, group builds, projects, schedule, and course expectations.
 
