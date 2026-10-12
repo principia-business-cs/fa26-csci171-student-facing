@@ -1,13 +1,14 @@
 # Midterm Coding Review
 
-Use this review to practice for the coding portion of the midterm. These are not the exam questions, but they use the same kinds of thinking:
+Use this review to practice for the coding portion of the midterm. These are not the exam questions. They are practice problems for the same core skills:
 
-- functions with exact names
-- conditionals
-- loops over lists and tuples
-- building dictionaries
-- using lists inside dictionaries
-- printing a clear report from a `main()` function
+- writing functions with exact names
+- using conditionals with ranges
+- looping through lists and tuples
+- counting matching values
+- building dictionaries from data
+- looping through `.items()`
+- using `main()` to test your code
 
 ## How We Will Use This In Class
 
@@ -17,76 +18,122 @@ Write each function above `main()`. Keep the function names exactly as written s
 
 ## Required Function Names
 
-- `shipping_zone(distance_miles)`
-- `first_long_name(names)`
-- `build_letter_counts(words)`
-- `average(scores)`
-- `print_team_report(team_scores)`
+- `attendance_message(days_present, total_days)`
+- `count_scores_at_least(scores, target)`
+- `build_inventory_value(items)`
+- `average(values)`
+- `print_club_summary(club_hours)`
 - `main()`
 
-## Problem 1: Shipping Zone
+## Problem 1: Attendance Message
 
-Write a function named `shipping_zone(distance_miles)` that returns one of these exact strings:
+Write a function named `attendance_message(days_present, total_days)`.
 
-- `"local"` when the distance is less than 25
-- `"regional"` when the distance is at least 25 and less than 100
-- `"national"` when the distance is at least 100 and less than 500
-- `"long distance"` when the distance is 500 or more
+The function should calculate the attendance percentage:
 
-This practices conditionals with ranges.
+```python
+days_present / total_days
+```
 
-## Problem 2: First Long Name
+Return one of these exact strings:
 
-Write a function named `first_long_name(names)` that takes a tuple of names and returns the first name with more than 6 characters.
+- `"excellent attendance"` when attendance is at least 90%
+- `"steady attendance"` when attendance is at least 75% but less than 90%
+- `"needs a plan"` when attendance is below 75%
 
-Rules:
+This practices division, comparison operators, and conditionals with ranges.
 
-- Use a loop.
-- Do not use `max()`.
-- If no name has more than 6 characters, return `"none found"`.
+## Problem 2: Count Scores At Least A Target
 
-This practices loops, strings, `len()`, and returning early from a function.
+Write a function named `count_scores_at_least(scores, target)`.
 
-## Problem 3: Build Letter Counts
-
-Write a function named `build_letter_counts(words)` that takes a list of words and returns a dictionary.
-
-The dictionary should map each word to the number of letters in that word.
+The function should return how many scores in the list are greater than or equal to `target`.
 
 Example:
 
 ```python
-build_letter_counts(["sun", "moon", "stars"])
+count_scores_at_least([82, 91, 77, 100, 88], 85)
 ```
 
 should return:
 
 ```python
-{"sun": 3, "moon": 4, "stars": 5}
+3
+```
+
+Rules:
+
+- Start a counter at `0`.
+- Use a loop.
+- Use an `if` statement inside the loop.
+- Return the final counter.
+
+This practices a common pattern: count the things that match a condition.
+
+## Problem 3: Build Inventory Values
+
+Write a function named `build_inventory_value(items)`.
+
+The `items` list contains tuples. Each tuple has:
+
+```python
+(item_name, price, quantity)
+```
+
+The function should return a dictionary where each item name maps to the total value for that item:
+
+```python
+price * quantity
+```
+
+Example:
+
+```python
+build_inventory_value([
+    ("notebook", 2.50, 4),
+    ("pen", 1.25, 10),
+])
+```
+
+should return:
+
+```python
+{"notebook": 10.0, "pen": 12.5}
 ```
 
 Rules:
 
 - Start with an empty dictionary.
 - Use a loop.
+- Unpack each tuple into clear variable names.
 - Do not hardcode the final dictionary.
 
-This practices dictionary building.
+This practices tuples, dictionaries, and calculations inside loops.
 
-## Problem 4: Team Score Report
+## Problem 4: Club Hours Summary
 
-Write a function named `average(scores)` that returns the average of a list of scores.
+Write a function named `average(values)` that returns the average of a list of numbers.
 
-Then write a function named `print_team_report(team_scores)` that loops through `team_scores.items()` and prints each team name and average score.
+Then write a function named `print_club_summary(club_hours)`.
+
+`club_hours` is a dictionary where:
+
+- each key is a club name
+- each value is a list of weekly practice hours
+
+For each club, print the club name, average hours, and one label:
+
+- `"on track"` when the average is at least 3
+- `"check in"` when the average is below 3
 
 Example style:
 
 ```text
-Blue average: 8.67
-Gold average: 7.33
+Robotics average: 3.33 - on track
+Chess average: 2.33 - check in
 ```
 
-This practices dictionaries whose values are lists.
+This practices helper functions, dictionary `.items()`, averages, and conditionals inside a report.
 
 ## Required Main Function
 
@@ -95,26 +142,29 @@ Use this exact `main()` function at the bottom of your file:
 ```python
 def main():
     print("Problem 1")
-    print(shipping_zone(10))
-    print(shipping_zone(25))
-    print(shipping_zone(120))
-    print(shipping_zone(700))
+    print(attendance_message(18, 20))
+    print(attendance_message(15, 20))
+    print(attendance_message(10, 20))
 
     print("\nProblem 2")
-    print(first_long_name(("Ana", "Bo", "Caroline", "Dee")))
-    print(first_long_name(("Mia", "Noor", "Kai")))
+    print(count_scores_at_least([82, 91, 77, 100, 88], 85))
+    print(count_scores_at_least([70, 72, 74], 75))
 
     print("\nProblem 3")
-    word_lengths = build_letter_counts(["sun", "moon", "stars"])
-    print(word_lengths)
+    inventory = [
+        ("notebook", 2.50, 4),
+        ("pen", 1.25, 10),
+        ("folder", 3.00, 2),
+    ]
+    print(build_inventory_value(inventory))
 
     print("\nProblem 4")
-    team_scores = {
-        "Blue": [9, 8, 9],
-        "Gold": [7, 8, 7],
-        "Green": [10, 9, 8],
+    club_hours = {
+        "Robotics": [3, 4, 3],
+        "Chess": [2, 2, 3],
+        "Choir": [4, 4, 5],
     }
-    print_team_report(team_scores)
+    print_club_summary(club_hours)
 
 
 if __name__ == "__main__":
