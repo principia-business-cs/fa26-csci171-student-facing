@@ -23,3 +23,7 @@ Suggested order:
 4. `04_search_reflection.py`
 
 For each file, run it, read the output, then fill in the TODOs.
+
+## Midterm Coding Review
+
+Use [midterm-coding-review](./midterm-coding-review/README.md) to practice writing the kinds of functions, loops, dictionaries, and reports that appear on the coding portion of the midterm.
