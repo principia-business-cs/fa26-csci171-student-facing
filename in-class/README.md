@@ -11,6 +11,10 @@ Use these files to practice:
 - searching for values in a list
 - improving a search when the list is already sorted
 
+## Parts Desk: Classes And Objects
+
+Build a [parts inventory manager](parts-manager/README.md) using objects, a list, search, a menu, and input validation. Includes a starter, checkpoints, test cases, and two optional extensions.
+
 ## Simple Programs
 
 Start in [simple-programs](./simple-programs/README.md).
