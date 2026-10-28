@@ -14,20 +14,20 @@ Build a terminal program for a small campus lending library. A librarian should 
 
 Complete the core before attempting either extension. You may discuss concepts, but write and test your own code.
 
-## 1. Model A Book
+## Required Class And Methods
 
 Define `class Book` with `__init__(self, book_id, title, author)`. Each object stores `book_id`, `title`, `author`, and `is_available`, initially `True`.
 
-Define two methods:
+Implement these methods. Decide how to organize their logic yourself:
 
-- `check_out(self)`: if available, set `is_available` to `False` and return `True`. Otherwise leave it unchanged and return `False`.
-- `return_book(self)`: if checked out, set `is_available` to `True` and return `True`. Otherwise leave it unchanged and return `False`.
+- `check_out(self)`: attempt to borrow this book. Return a Boolean indicating success.
+- `return_book(self)`: attempt to return this book. Return a Boolean indicating success.
 
 Keep `input()` and `print()` outside these methods. The methods change the object and return whether the action succeeded.
 
-## 2. Create Your Collection
+## Starting Books
 
-In `main()`, create a list named `books` containing three separate Book objects:
+Your list named `books` must contain three separate Book objects:
 
 | Book ID | Title | Author |
 |---|---|---|
@@ -35,21 +35,22 @@ In `main()`, create a list named `books` containing three separate Book objects:
 | B102 | A Wrinkle in Time | Madeleine L'Engle |
 | B103 | The Little Prince | Antoine de Saint-Exupery |
 
-Create this list once, before the menu loop. Do not use three disconnected variables as your inventory or rebuild the list after each action.
+Book status must persist between menu actions during one run.
 
-## 3. Write Functions
+## Required Functions
 
 | Function | Required behavior |
 |---|---|
-| `find_book(books, book_id)` | Loop over the list and return the matching Book object, or `None`. Ignore spaces around the entered ID and differences in letter case. |
-| `show_books(books)` | Loop over the objects and print each ID, title, author, and status: `Available` or `Checked out`. |
-| `library_summary(books)` | Count available and checked-out books using a loop. Return the tuple `(available_count, checked_out_count)`. Do not print inside this function. |
+| `find_book(books, book_id)` | Return the matching Book object, or `None`. Accept IDs regardless of surrounding spaces or letter case. |
+| `show_books(books)` | Display each ID, title, author, and status: `Available` or `Checked out`. |
+| `library_summary(books)` | Return the tuple `(available_count, checked_out_count)`. Do not print inside this function. |
+| `main()` | Coordinate user interaction and the other functions. |
 
-Unpack the summary tuple into two variables before printing it. Use instance methods for checkout and return; do not duplicate their state-changing logic in the menu.
+Your program must demonstrate list iteration, tuple unpacking, and calls to the object's methods. Choose the implementation yourself.
 
-## 4. Build The Menu
+## User Experience
 
-Use a `while` loop and conditionals in `main()`:
+Provide these menu choices:
 
 ```text
 1. Show all books
@@ -60,11 +61,11 @@ Use a `while` loop and conditionals in `main()`:
 0. Quit
 ```
 
-For choices 2-4, ask for an ID and call `find_book`. Print `Book not found` when it returns `None`; do not try to call a method on `None`.
+Users identify a book by its ID. An unknown ID produces `Book not found`.
 
-For checkout and return, print a clear success or failure message. Checking out a checked-out book or returning an available book must not change other objects.
+Checkout succeeds only for an available book; return succeeds only for a checked-out book. Print a clear success or failure message. Rejected actions must not change inventory, and successful actions affect only the selected book.
 
-Treat menu choices as strings. Invalid choices, letters, blank input, and unknown IDs must produce a helpful message and return to the menu without crashing. No numeric input conversion is needed. All changes last until quitting; file saving is not required. Call `main()` once at the bottom of the file.
+The menu repeats until the user quits. Invalid choices, letters, blank input, and unknown IDs produce a helpful message without crashing. Use input, output, loops, and conditionals to achieve this. File saving is not required.
 
 ## Requirements Checklist
 
