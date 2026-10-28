@@ -15,6 +15,10 @@ Use these files to practice:
 
 Build a [parts inventory manager](parts-manager/README.md) using objects, a list, search, a menu, and input validation. Includes a starter, checkpoints, test cases, and two optional extensions.
 
+## Week 10 Individual Turn-In
+
+[Campus Library Checkout](week-10-library/README.md): build a class-based library with a list of objects, functions, a tuple summary, and an interactive menu. Individual work, 10 points, due by the end of class. No starter file.
+
 ## Simple Programs
 
 Start in [simple-programs](./simple-programs/README.md).
