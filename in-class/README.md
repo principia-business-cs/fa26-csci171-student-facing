@@ -11,6 +11,10 @@ Use these files to practice:
 - searching for values in a list
 - improving a search when the list is already sorted
 
+## Fun with Prime Numbers
+
+[Fun with Prime Numbers](fun-with-prime-numbers/README.md): explore what makes a number prime, develop your own prime-checking function, and use it to generate primes. Includes test cases, reflection questions, and optional challenges. Write your own solution without copied or AI-generated code.
+
 ## Parts Desk: Classes And Objects
 
 Build a [parts inventory manager](parts-manager/README.md) using objects, a list, search, a menu, and input validation. Includes a starter, checkpoints, test cases, and two optional extensions.
