@@ -101,15 +101,13 @@ Calendar notes:
 
 | Category | Weight |
 |---|---:|
-| Friday individual in-class projects | 30% |
-| Programming assignments extending Friday work | 20% |
-| Wednesday group builds and reflections | 15% |
+| Weekly assignments | 30% |
+| Projects | 20% |
+| Midterm exam | 20% |
+| Final exam | 20% |
 | Quizzes and concept checks | 10% |
-| Midterm practical exam | 10% |
-| Final project or final practical | 10% |
-| Professional practice | 5% |
 
-Professional practice includes preparation, attendance habits, careful submission, meaningful participation, respectful collaboration, and use of course tools.
+Professional practice still matters: preparation, attendance habits, careful submission, meaningful participation, respectful collaboration, and responsible use of course tools all affect your ability to succeed in the graded work.
 
 Letter grades follow this scale:
 
@@ -136,11 +134,11 @@ The slides are condensed, but they are not a replacement for practice. If you on
 
 ## Programming Projects
 
-Individual Friday projects are completed in class and submitted through Canvas. Larger course projects are placed inside the weekly folder where they are assigned so students can see the project in context.
+Weekly assignments are completed mostly in class and submitted through Canvas and GitHub as directed. Larger course projects are placed inside the weekly folder where they are assigned so students can see the project in context.
 
 The course has four projects: Project 0 GitHub Setup in Week 1, Project 1 Turtle Sketch in Week 5 due before the midterm checkpoint, Project 2 Functions and Loops in Week 8 after the midterm checkpoint, and Project 3 Final Integrated Program assigned in Week 11 and due in Week 13.
 
-Stretch assignments are the challenge layer on top of required weekly work. They are graded with the project category so students who are ready for more rigor have a clear path to show it without making the base assignment unclear. Completed solution examples may be released after submission deadlines so you can compare approaches and learn from them.
+Stretch tasks are the challenge layer on top of required weekly work. They are graded as part of the weekly assignment or project where they appear, so students who are ready for more rigor have a clear path to show it without making the base assignment unclear. Completed solution examples may be released after submission deadlines so you can compare approaches and learn from them.
 
 ## Group Builds
 
